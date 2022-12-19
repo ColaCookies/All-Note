@@ -1,6 +1,6 @@
 ### 5.1 一个简单示例
 
-``` python
+```python
 #循环时遇见 bmw 大写
 cars = ['audi', 'bmw', 'subaru', 'toyota']
 for car in cars:
@@ -12,4 +12,4 @@ for car in cars:
 
 ### 5.2 条件测试
 
-- 
+-
