@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "d55ca1f0f093727c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ebc133d299e89e15",
+        "type": "leaf",
+        "dimension": 27.852348993288594,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "a.导入第三方模块.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "116e905c513be13d",
+        "type": "leaf",
+        "dimension": 31.006711409395972,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "e.获取对象里的文本数据.md",
+            "mode": "preview",
+            "source": false
+          }
+        },
+        "group": "90084ecadd1052b6"
+      },
+      {
+        "id": "a528019020e56e1e",
+        "type": "leaf",
+        "dimension": 41.14093959731544,
+        "state": {
+          "type": "localgraph",
+          "state": {
+            "file": "e.获取对象里的文本数据.md",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 0.713275462622442,
+              "close": false
+            }
+          }
+        },
+        "group": "90084ecadd1052b6"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "947a44bf43cacc4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e027444db5ec835c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8acbc111a2d8c52",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a2ad52e252a47338",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b570977a03c58157",
+    "type": "split",
+    "children": [
+      {
+        "id": "2884509158a81842",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "23a9d87b27ee6c8b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "e.获取对象里的文本数据.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "116e905c513be13d",
+  "lastOpenFiles": [
+    "Old_Like.md",
+    "a.导入第三方模块.md",
+    "f.转换数据类型.md",
+    "e.获取对象里的文本数据.md",
+    "c.伪装-掩盖爬虫身份.md",
+    "g.解析网页数据获取相册链接.md",
+    "h.解析相册获取图片链接.md",
+    "i.获取对象二进制数据.md"
+  ]
+}
