@@ -122,4 +122,34 @@
 
 ## Vim 的 tect object
 
-### 
+### 文本对象操作方式
+
+- [number] <command> [text_object]
+- number:次数，command:命令，d( delete)，c(change)，y(yank)
+- text_object 是要操作的文本对象，比如单词 w(word)，句子 s(sentence)，段落 p(paragraph)
+
+### 示例
+
+- `iw` 表示 inner_word。如果键入vim命令，那么首先v将进去选择模式，然后 iw 将选中当前单词
+- `aw` 表示 around_word，它不但会选中当前单词，还会包含当前单词之后的空格
+- `iW/aw`
+- `is/as`
+- `ip/ap`
+- `3daw` 删除三个单词
+- `3cw` 删除三个单词并进入插入模式
+- `vi` 符号 选中符号中的字符
+- `ci`符号 删除符号中的字符，并进入插入模式
+
+## Vim 复制粘贴与寄存器的使用
+
+### Vim Normal模式复制粘贴
+
+- normal 模式下
+  - 复制y (yank)
+  - 粘贴 p(Put)
+  - 剪贴d和p
+- 使用v(visual)命令选中所要复制的地方，然后使用p粘贴
+- 配合文本对象使用
+  - 使用yiw 复制一个单词
+  - yy 复制一行
+- Vim中的剪切(cut)复制(copy)粘贴(paste)分别是delete/yank/put
