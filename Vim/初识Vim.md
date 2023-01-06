@@ -145,11 +145,12 @@
 ### Vim Normal模式复制粘贴
 
 - normal 模式下
-  - 复制y (yank)
-  - 粘贴 p(Put)
-  - 剪贴d和p
-- 使用v(visual)命令选中所要复制的地方，然后使用p粘贴
+  - 复制 y ( yank )
+  - 粘贴 p ( Put )
+  - 剪贴 d 和 p
+- 使用 v(visual) 命令选中所要复制的地方，然后使用 p 粘贴
 - 配合文本对象使用
-  - 使用yiw 复制一个单词
-  - yy 复制一行
-- Vim中的剪切(cut)复制(copy)粘贴(paste)分别是delete/yank/put
+  - 使用 `yiw` 复制一个单词
+  - `yy` 复制一行
+- Vim 中的 剪切( cut ) 复制( copy ) 粘贴( paste ) 分别是 delete / yank / put
+
