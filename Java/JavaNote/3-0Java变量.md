@@ -100,3 +100,16 @@ if(Math.abs(num7-num8) < 0.00001) {
 - 在 Java 中，char 的本质是一个整数，在输出时，是 unicode 码对应的字符。
 - 可以直接给 char 赋一个整数，然后输出时，会按照对应的 unicode 字符输出
 - char 类型是可以进行运算的，相当于一个整数，因为它都对应有 Unicode 码.
+
+## 布尔类型
+
+- 布尔类型也叫boolean类型，boolean 类型数据只允许取值 `true` 和 `false` ，无 null
+- boolean 类型占1个字节。
+- boolean 类型适于逻辑运算，一般用于程序流程控制
+  - `if` 件控制语句
+  - `while` 循环控制语句
+  - `do-while` 循环控制语句
+  - `for` 循环控制语句
+- **注意：不可以以 0 或 非0 的整数替代 false 和 true**
+
+## 基本数值类型转换
