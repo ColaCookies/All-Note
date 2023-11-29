@@ -1,5 +1,27 @@
-# -*- codeing = utf-8 -*-
-# @Time    : ${DATE} ${TIME}
-# @Author  : ${USER}
+```python
+# !/usr/bin/env python
+# -*- coding = utf-8 -*-
+"""
 # @File    : ${NAME}.py
+# @Time    : ${DATE} ${TIME}
+# @Author  : .CbinbinL.
 # @Software: ${PRODUCT_NAME}
+# @Version : python 3.9
+# @Description:
+"""
+```
+
+- 用`@`符号标记，这在Python中通常用于文档字符串。
+- `#!/usr/bin/env python`：shebang行，指定脚本的解释器。
+- `# -*- coding: utf-8 -*-`：指定脚本的字符编码。
+- `# @File : ${NAME}.py`：文件名注释，`${NAME}`占位符应该被实际的脚本名称替换。
+- `# @Time : ${DATE} ${TIME}`：时间注释，用于记录脚本创建的日期和时间。
+- `# @Author : .CbinbinL.`：作者注释，`${AUTHOR}`占位符应该被实际的作者名字替换。
+- `# @Software: ${PRODUCT_NAME}`：软件注释，`${PRODUCT_NAME}`占位符应该被实际的软件名称替换。
+- `# @Version : Python 3.9`：版本注释，指定Python的版本。
+- `# @Description:`：描述注释，用于添加脚本的简要描述。
+
+
+
+
+
